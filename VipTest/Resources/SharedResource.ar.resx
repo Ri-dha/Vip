@@ -1,0 +1,740 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="UserAlreadyExists" xml:space="preserve">
+        <value>المستخدم موجود بالفعل.</value>
+    </data>
+    <data name="UserIsNotADriver" xml:space="preserve">
+        <value>المستخدم ليس ساىق.</value>
+    </data>
+    <data name="UserIsNotACustomer" xml:space="preserve">
+        <value>المستخدم ليس زبون</value>
+    </data>
+    <data name="UserNotFound" xml:space="preserve">
+        <value>المستخدم غير موجود</value>
+    </data>
+    <data name="InvalidPassword" xml:space="preserve">
+        <value>الرمز السري خطأ او الرقم</value>
+    </data>
+    <data name="UserIsNotAnAdmin" xml:space="preserve">
+        <value>المستخدم ليس مدير</value>
+    </data>
+    <data name="Roles_Admin" xml:space="preserve">
+        <value>اداري</value>
+    </data>
+    <data name="Roles_Driver" xml:space="preserve">
+        <value>سائق</value>
+    </data>
+    <data name="Roles_Customer" xml:space="preserve">
+        <value>زبون</value>
+    </data>
+
+    <data name="AdministrativeRoles_Manager" xml:space="preserve">
+    <value>مدير</value>
+  </data>
+    <data name="AdministrativeRoles_Editor" xml:space="preserve">
+    <value>محرر</value>
+  </data>
+    <data name="AdministrativeRoles_Administrator" xml:space="preserve">
+    <value>مسؤول</value>
+  </data>
+    <data name="AdministrativeRoles_Support" xml:space="preserve">
+    <value>دعم</value>
+  </data>
+    <data name="VehicleStatus_Available" xml:space="preserve">
+    <value>متاح</value>
+  </data>
+    <data name="VehicleStatus_OnTrip" xml:space="preserve">
+    <value>في رحلة</value>
+  </data>
+    <data name="VehicleStatus_OutOfService" xml:space="preserve">
+    <value>خارج الخدمة</value>
+  </data>
+    <data name="VehicleStatus_InMaintenance" xml:space="preserve">
+    <value>في الصيانة</value>
+  </data>
+    <data name="VehicleStatus_NotAvailable" xml:space="preserve">
+    <value>غير متاح</value>
+  </data>
+
+    <!-- VehicleType Enum Translations -->
+
+    <data name="PasswordResetSuccessfully" xml:space="preserve">
+        <value>تم تعديل الرمز السري بنجاح</value>
+    </data>
+    <data name="FailedToCreateWarehouse" xml:space="preserve">
+        <value>فشل في إنشاء المستودع</value>
+    </data>
+    <data name="FailedToUpdateWarehouse" xml:space="preserve">
+        <value>فشل تحديث المستودع</value>
+    </data>
+    <data name="VehicleNotFound" xml:space="preserve">
+        <value>مركبة غير موجودة</value>
+    </data>
+    <data name="FailedToCreateVehicle" xml:space="preserve">
+        <value>فشل في انشاء المركبة</value>
+    </data>
+    <data name="FailedToUpdateVehicle" xml:space="preserve">
+        <value>فشل في تحديث المركبة</value>
+    </data>
+
+    <data name="IraqGovernorates_Baghdad" xml:space="preserve">
+    <value>بغداد</value>
+</data>
+    <data name="IraqGovernorates_Basra" xml:space="preserve">
+    <value>البصرة</value>
+</data>
+    <data name="IraqGovernorates_Maysan" xml:space="preserve">
+    <value>ميسان</value>
+</data>
+    <data name="IraqGovernorates_DhiQar" xml:space="preserve">
+    <value>ذي قار</value>
+</data>
+    <data name="IraqGovernorates_Muthanna" xml:space="preserve">
+    <value>المثنى</value>
+</data>
+    <data name="IraqGovernorates_Qadisiyyah" xml:space="preserve">
+    <value>القادسية</value>
+</data>
+    <data name="IraqGovernorates_Wasit" xml:space="preserve">
+    <value>واسط</value>
+</data>
+    <data name="IraqGovernorates_Diyala" xml:space="preserve">
+    <value>ديالى</value>
+</data>
+    <data name="IraqGovernorates_Sulaymaniyah" xml:space="preserve">
+    <value>السليمانية</value>
+</data>
+    <data name="IraqGovernorates_Erbil" xml:space="preserve">
+    <value>أربيل</value>
+</data>
+    <data name="IraqGovernorates_Dohuk" xml:space="preserve">
+    <value>دهوك</value>
+</data>
+    <data name="IraqGovernorates_Kirkuk" xml:space="preserve">
+    <value>كركوك</value>
+</data>
+    <data name="IraqGovernorates_SalahAlDin" xml:space="preserve">
+    <value>صلاح الدين</value>
+</data>
+    <data name="IraqGovernorates_Anbar" xml:space="preserve">
+    <value>الأنبار</value>
+</data>
+    <data name="IraqGovernorates_Najaf" xml:space="preserve">
+    <value>النجف</value>
+</data>
+    <data name="IraqGovernorates_Karbala" xml:space="preserve">
+    <value>كربلاء</value>
+</data>
+    <data name="IraqGovernorates_Babil" xml:space="preserve">
+    <value>بابل</value>
+</data>
+    <data name="VehicleType_Vip" xml:space="preserve">
+    <value>كبار الشخصيات</value>
+</data>
+    <data name="VehicleType_Normal" xml:space="preserve">
+    <value>عادي</value>
+</data>
+    <data name="VehicleType_Rental" xml:space="preserve">
+    <value>تأجير</value>
+</data>
+    <data name="DriverStatus_Available" xml:space="preserve">
+    <value>متاح</value>
+</data>
+    <data name="DriverStatus_OnRide" xml:space="preserve">
+    <value>في رحلة</value>
+</data>
+    <data name="DriverStatus_Offline" xml:space="preserve">
+    <value>غير متصل</value>
+</data>
+    <data name="DriverStatus_Suspended" xml:space="preserve">
+    <value>معلق</value>
+</data>
+    <data name="FailedToCreateRide" xml:space="preserve">
+        <value>فشل في إنشاء الرحلة</value>
+    </data>
+    <data name="RideNotFound" xml:space="preserve">
+        <value>لم يتم العثور على الرحلة</value>
+    </data>
+    <data name="FailedToUpdateRide" xml:space="preserve">
+        <value>فشل في تحديث الرحلة</value>
+    </data>
+    <data name="UserNotAuthenticated" xml:space="preserve">
+        <value>لم تتم مصادقة المستخدم</value>
+    </data>
+    <data name="DriverNotFound" xml:space="preserve">
+        <value>لم يتم العثور على السائق</value>
+    </data>
+    <data name="CustomerNotFound" xml:space="preserve">
+        <value>لم يتم العثور على العميل</value>
+    </data>
+    <data name="RideBillingTypeAlreadyExist" xml:space="preserve">
+        <value>نوع فاتورة الركوب موجود بالفعل</value>
+    </data>
+    <data name="FailedToCreateRideBilling" xml:space="preserve">
+        <value>فشل في إنشاء فاتورة الركوب</value>
+    </data>
+    <data name="FailedToDeleteRideBilling" xml:space="preserve">
+        <value>فشل في حذف فاتورة الرحلة</value>
+    </data>
+    <data name="FailedToGetRideBilling" xml:space="preserve">
+        <value>فشل في الحصول على فاتورة الركوب</value>
+    </data>
+
+    <data name="RideType_Vip_From_Airport" xml:space="preserve">
+    <value>كبار الشخصيات من المطار</value>
+</data>
+    <data name="RideType_Vip_To_Airport" xml:space="preserve">
+    <value>كبار الشخصيات إلى المطار</value>
+</data>
+    <data name="RideType_Normal_From_Airport" xml:space="preserve">
+    <value>عادي من المطار</value>
+</data>
+    <data name="RideType_Normal_To_Airport" xml:space="preserve">
+    <value>عادي إلى المطار</value>
+</data>
+    <data name="RideType_Vip_OutSide_City" xml:space="preserve">
+    <value>كبار الشخصيات خارج المدينة</value>
+</data>
+    <data name="RideType_Normal_OutSide_City" xml:space="preserve">
+    <value>عادي خارج المدينة</value>
+</data>
+    <data name="RideType_Vip" xml:space="preserve">
+    <value>كبار الشخصيات</value>
+</data>
+    <data name="RideType_Normal" xml:space="preserve">
+    <value>عادي</value>
+</data>
+
+    <data name="FavouritePlaceNotAdded" xml:space="preserve">
+        <value>المكان المفضل لم يتم اضافته</value>
+    </data>
+    <data name="FavouritePlaceNotFound" xml:space="preserve">
+        <value>لم يتم العثور على المكان المفضل</value>
+    </data>
+    <data name="FavouritePlaceNotUpdated" xml:space="preserve">
+        <value>المكان المفضل لم يتم تحديثه</value>
+    </data>
+
+    <data name="PlaceType_Home" xml:space="preserve">
+    <value>منزل</value>
+</data>
+    <data name="PlaceType_Work" xml:space="preserve">
+    <value>عمل</value>
+</data>
+    <data name="PlaceType_Apartment" xml:space="preserve">
+    <value>شقة</value>
+</data>
+    <data name="PlaceType_Other" xml:space="preserve">
+    <value>آخر</value>
+</data>
+    <data name="DiscountNotAdded" xml:space="preserve">
+        <value>لم يتم إضافة الخصم</value>
+    </data>
+    <data name="DiscountNotFound" xml:space="preserve">
+        <value>لم يتم العثور على الخصم</value>
+    </data>
+    <data name="DiscountNotUpdated" xml:space="preserve">
+        <value>الخصم لم يتم تحديثه</value>
+    </data>
+    <data name="DiscountServices_VipRideService" xml:space="preserve">
+    <value>خدمة النقل لكبار الشخصيات</value>
+</data>
+    <data name="DiscountServices_NormalRideService" xml:space="preserve">
+    <value>خدمة النقل العادية</value>
+</data>
+    <data name="DiscountServices_CarRentalService" xml:space="preserve">
+    <value>خدمة تأجير السيارات</value>
+</data>
+    <data name="CustomerStatus_Active" xml:space="preserve">
+    <value>نشط</value>
+</data>
+    <data name="CustomerStatus_Inactive" xml:space="preserve">
+    <value>غير نشط</value>
+</data>
+    <data name="CustomerStatus_Suspended" xml:space="preserve">
+    <value>معلق</value>
+</data>
+    <!-- RideStatus Enum Translations -->
+    <data name="RideStatus_Pending" xml:space="preserve">
+    <value>قيد الانتظار</value>
+</data>
+    <data name="RideStatus_Confirmed" xml:space="preserve">
+    <value>مؤكد</value>
+</data>
+    <data name="RideStatus_Completed" xml:space="preserve">
+    <value>مكتمل</value>
+</data>
+    <data name="RideStatus_Canceled" xml:space="preserve">
+    <value>ملغى</value>
+</data>
+    <data name="RideStatus_Rejected" xml:space="preserve">
+    <value>مرفوض</value>
+</data>
+    <data name="RideStatus_Started" xml:space="preserve">
+    <value>بدأ</value>
+</data>
+
+    <!-- RidePaymentType Enum Translations -->
+    <data name="RidePaymentType_Cash" xml:space="preserve">
+    <value>نقدي</value>
+</data>
+    <data name="RidePaymentType_Card" xml:space="preserve">
+    <value>بطاقة</value>
+</data>
+    <data name="RidePaymentType_Wallet" xml:space="preserve">
+    <value>محفظة</value>
+</data>
+    <data name="FailedToCreateSupportTicket" xml:space="preserve">
+        <value>فشل في إنشاء تذكرة الدعم</value>
+    </data>
+    <data name="SupportTicketNotFound" xml:space="preserve">
+        <value>لم يتم العثور على تذكرة الدعم</value>
+    </data>
+    <data name="FailedToUpdateSupportTicket" xml:space="preserve">
+        <value>فشل تحديث تذكرة الدعم</value>
+    </data>
+    <data name="FailedToDeleteSupportTicket" xml:space="preserve">
+        <value>فشل في حذف تذكرة الدعم</value>
+    </data>
+    <data name="AdminNotFound" xml:space="preserve">
+        <value>لم يتم العثور على المشرف</value>
+    </data>
+    <data name="DesignatedPlacesNotFound" xml:space="preserve">
+        <value>لم يتم العثور على الأماكن المخصصة</value>
+    </data>
+    <data name="FailedToUpdateDesignatedPlaces" xml:space="preserve">
+        <value>فشل في تحديث الأماكن المخصصة</value>
+    </data>
+    <data name="SettingsNotFound" xml:space="preserve">
+        <value>ألاعدادت غير متاحه</value>
+    </data>
+    <data name="FailedToCreateDesignatedPlaces" xml:space="preserve">
+        <value>فشل في إنشاء الأماكن المخصصة</value>
+    </data>
+    <data name="InvalidRideStatus" xml:space="preserve">
+        <value>حالة الرحلة غير صالحة</value>
+    </data>
+    <data name="DiscountNotValid" xml:space="preserve">
+        <value>الخصم مرفوض او منتهي</value>
+    </data>
+
+    
+    <data name="Destiantion_ToAirport" xml:space="preserve">
+        <value>إلى المطار</value>
+    </data>
+    <data name="Destiantion_FromAirport" xml:space="preserve">
+        <value>من المطار</value>
+    </data>
+    <data name="Destiantion_Other" xml:space="preserve">
+        <value>اخرى</value>
+    </data>
+    <data name="ReviewNotFound" xml:space="preserve">
+        <value>المراجعه غير موجوده</value>
+    </data>
+    
+    <data name="TicketType_General" xml:space="preserve">
+    <value>عام</value>
+</data>
+    <data name="TicketType_Complaint" xml:space="preserve">
+    <value>شكوى</value>
+</data>
+    <data name="TicketType_Inquiry" xml:space="preserve">
+    <value>استفسار</value>
+</data>
+    <data name="TicketType_Other" xml:space="preserve">
+    <value>أخرى</value>
+</data>
+    <data name="TicketType_Refund" xml:space="preserve">
+    <value>استرداد</value>
+</data>
+    <data name="TicketType_Suggestion" xml:space="preserve">
+    <value>اقتراح</value>
+</data>
+    <data name="TicketType_Payment" xml:space="preserve">
+    <value>دفع</value>
+</data>
+    <data name="TicketType_Technical" xml:space="preserve">
+    <value>تقني</value>
+</data>
+
+    <data name="TicketStatus_Open" xml:space="preserve">
+    <value>مفتوح</value>
+</data>
+    <data name="TicketStatus_InProgress" xml:space="preserve">
+    <value>قيد التنفيذ</value>
+</data>
+    <data name="TicketStatus_Closed" xml:space="preserve">
+    <value>مغلق</value>
+</data>
+
+    <data name="CarBrand_Toyota" xml:space="preserve">
+    <value>تويوتا</value>
+</data>
+    <data name="CarBrand_Honda" xml:space="preserve">
+    <value>هوندا</value>
+</data>
+    <data name="CarBrand_Ford" xml:space="preserve">
+    <value>فورد</value>
+</data>
+    <data name="CarBrand_Chevrolet" xml:space="preserve">
+    <value>شيفروليه</value>
+</data>
+    <data name="CarBrand_Nissan" xml:space="preserve">
+    <value>نيسان</value>
+</data>
+    <data name="CarBrand_Mercedes" xml:space="preserve">
+    <value>مرسيدس</value>
+</data>
+    <data name="CarBrand_BMW" xml:space="preserve">
+    <value>بي إم دبليو</value>
+</data>
+    <data name="CarBrand_Audi" xml:space="preserve">
+    <value>أودي</value>
+</data>
+    <data name="CarBrand_Hyundai" xml:space="preserve">
+    <value>هيونداي</value>
+</data>
+    <data name="CarBrand_Kia" xml:space="preserve">
+    <value>كيا</value>
+</data>
+    <data name="CarBrand_Volkswagen" xml:space="preserve">
+    <value>فولكس فاجن</value>
+</data>
+    <data name="CarBrand_Mazda" xml:space="preserve">
+    <value>مازدا</value>
+</data>
+    <data name="CarBrand_Subaru" xml:space="preserve">
+    <value>سوبارو</value>
+</data>
+    <data name="CarBrand_Jeep" xml:space="preserve">
+    <value>جيب</value>
+</data>
+    <data name="CarBrand_Volvo" xml:space="preserve">
+    <value>فولفو</value>
+</data>
+    <data name="CarBrand_Porsche" xml:space="preserve">
+    <value>بورش</value>
+</data>
+    <data name="CarBrand_Lexus" xml:space="preserve">
+    <value>لكزس</value>
+</data>
+    <data name="CarBrand_LandRover" xml:space="preserve">
+    <value>لاند روفر</value>
+</data>
+    <data name="CarBrand_Jaguar" xml:space="preserve">
+    <value>جاغوار</value>
+</data>
+    <data name="CarBrand_Mitsubishi" xml:space="preserve">
+    <value>ميتسوبيشي</value>
+</data>
+    <data name="CarBrand_Dodge" xml:space="preserve">
+    <value>دودج</value>
+</data>
+    <data name="CarBrand_Chrysler" xml:space="preserve">
+    <value>كرايسلر</value>
+</data>
+    <data name="CarBrand_Buick" xml:space="preserve">
+    <value>بويك</value>
+</data>
+    <data name="CarBrand_Cadillac" xml:space="preserve">
+    <value>كاديلاك</value>
+</data>
+    <data name="CarBrand_Acura" xml:space="preserve">
+    <value>أكيورا</value>
+</data>
+    <data name="CarBrand_Other" xml:space="preserve">
+    <value>أخرى</value>
+</data>
+    <data name="ShifterType_Manual" xml:space="preserve">
+    <value>يدوي</value>
+</data>
+    <data name="ShifterType_Automatic" xml:space="preserve">
+    <value>تلقائي</value>
+</data>
+    <data name="RentalOrderStatus_Pending" xml:space="preserve">
+    <value>قيد الانتظار</value>
+</data>
+    <data name="RentalOrderStatus_Confirmed" xml:space="preserve">
+    <value>مؤكد</value>
+</data>
+    <data name="RentalOrderStatus_Completed" xml:space="preserve">
+    <value>مكتمل</value>
+</data>
+    <data name="RentalOrderStatus_Canceled" xml:space="preserve">
+    <value>ملغى</value>
+</data>
+    <data name="RentalOrderStatus_Rejected" xml:space="preserve">
+    <value>مرفوض</value>
+</data>
+    <data name="RentalOrderStatus_PickedUp" xml:space="preserve">
+    <value>تم الاستلام</value>
+</data>
+    <data name="RentalOrderStatus_DroppedOff" xml:space="preserve">
+    <value>تم التسليم</value>
+</data>
+    <data name="WarehouseNotFound" xml:space="preserve">
+        <value>فشل جلب المستودع</value>
+    </data>
+    <data name="RentalOrderStatus_CarBack" xml:space="preserve">
+        <value>تم استلام السيارة</value>
+    </data>
+    <data name="RentalOrderStatus_CarNotBack" xml:space="preserve">
+        <value>لم تعد السيارة</value>
+    </data>
+    <data name="PickUpType_FromWareHouse" xml:space="preserve">
+        <value>من المعرض</value>
+    </data>
+    <data name="PickUpType_ChosenLocation" xml:space="preserve">
+        <value>موقع مختار</value>
+    </data>
+
+    <data name="TransactionPaymentStatus_Successful" xml:space="preserve">
+  <value>ناجح</value>
+</data>
+    <data name="TransactionPaymentStatus_Unsuccessful" xml:space="preserve">
+  <value>غير ناجح</value>
+</data>
+    <data name="TransactionPaymentStatus_Pending" xml:space="preserve">
+  <value>قيد الانتظار</value>
+</data>
+
+
+    <data name="TransactionsServicesType_CarRentalService" xml:space="preserve">
+  <value>خدمة تأجير السيارات</value>
+</data>
+    <data name="TransactionsServicesType_VipRideService" xml:space="preserve">
+  <value>خدمة نقل كبار الشخصيات</value>
+</data>
+    <data name="TransactionsServicesType_NormalRideService" xml:space="preserve">
+  <value>خدمة نقل عادية</value>
+</data>
+    <data name="NotificationType_Info" xml:space="preserve">
+  <value>معلومة</value>
+</data>
+    <data name="NotificationType_Warning" xml:space="preserve">
+  <value>تحذير</value>
+</data>
+    <data name="NotificationType_Error" xml:space="preserve">
+  <value>خطأ</value>
+</data>
+    <data name="NotificationType_Discount" xml:space="preserve">
+  <value>خصم</value>
+</data>
+    <data name="NotificationType_Promotion" xml:space="preserve">
+        <value>اعلان</value>
+    </data>
+    <data name="NotificationType_SystemUpdate" xml:space="preserve">
+  <value>تحديث النظام</value>
+</data>
+    <data name="NotificationType_Other" xml:space="preserve">
+  <value>أخرى</value>
+</data>
+
+    <data name="NotificationStatus_Sent" xml:space="preserve">
+  <value>تم الإرسال</value>
+</data>
+    <data name="NotificationStatus_Scheduled" xml:space="preserve">
+  <value>مجدول</value>
+</data>
+    <data name="Roles_BranchManager" xml:space="preserve">
+        <value>مدير فرع</value>
+    </data>
+
+    <data name="CarAcceptanceStatus_Pending" xml:space="preserve">
+  <value>معلق</value>
+</data>
+    <data name="CarAcceptanceStatus_Accepted" xml:space="preserve">
+  <value>مقبول</value>
+</data>
+    <data name="CarAcceptanceStatus_Rejected" xml:space="preserve">
+  <value>مرفوض</value>
+</data>
+    <data name="RideType_Vip_To_AlMuthana" xml:space="preserve">
+    <value>كبار الشخصيات إلى المثنى</value>
+</data>
+    <data name="RideType_Normal_To_AlMuthana" xml:space="preserve">
+    <value>عادي إلى المثنى</value>
+</data>
+    <data name="RideType_Vip_To_DhiQar" xml:space="preserve">
+    <value>كبار الشخصيات إلى ذي قار</value>
+</data>
+    <data name="RideType_Normal_To_DhiQar" xml:space="preserve">
+    <value>عادي إلى ذي قار</value>
+</data>
+    <data name="RideType_Vip_To_Maysan" xml:space="preserve">
+    <value>كبار الشخصيات إلى ميسان</value>
+</data>
+    <data name="RideType_Normal_To_Maysan" xml:space="preserve">
+    <value>عادي إلى ميسان</value>
+</data>
+    <data name="RideType_Vip_To_Qadisiyah" xml:space="preserve">
+    <value>كبار الشخصيات إلى القادسية</value>
+</data>
+    <data name="RideType_Normal_To_Qadisiyah" xml:space="preserve">
+    <value>عادي إلى القادسية</value>
+</data>
+    <data name="RideType_Vip_To_Samawa" xml:space="preserve">
+    <value>كبار الشخصيات إلى السماوة</value>
+</data>
+    <data name="RideType_Normal_To_Samawa" xml:space="preserve">
+    <value>عادي إلى السماوة</value>
+</data>
+    <data name="RideType_Vip_To_Wasit" xml:space="preserve">
+    <value>كبار الشخصيات إلى واسط</value>
+</data>
+    <data name="RideType_Normal_To_Wasit" xml:space="preserve">
+    <value>عادي إلى واسط</value>
+</data>
+    <data name="RideType_Vip_To_Babil" xml:space="preserve">
+    <value>كبار الشخصيات إلى بابل</value>
+</data>
+    <data name="RideType_Normal_To_Babil" xml:space="preserve">
+    <value>عادي إلى بابل</value>
+</data>
+    <data name="RideType_Vip_To_Najaf" xml:space="preserve">
+    <value>كبار الشخصيات إلى النجف</value>
+</data>
+    <data name="RideType_Normal_To_Najaf" xml:space="preserve">
+    <value>عادي إلى النجف</value>
+</data>
+    <data name="RideType_Vip_To_Karbala" xml:space="preserve">
+    <value>كبار الشخصيات إلى كربلاء</value>
+</data>
+    <data name="RideType_Normal_To_Karbala" xml:space="preserve">
+    <value>عادي إلى كربلاء</value>
+</data>
+    <data name="AdministrativeRoles_BranchManager" xml:space="preserve">
+        <value>مدير فرع</value>
+    </data>
+    <data name="CanNotDeleteDefaultUserGroups" xml:space="preserve">
+        <value>لا يمكن حذف مجموعات المستخدمين الافتراضية</value>
+    </data>
+    <data name="FailedToUpdateUserGroups" xml:space="preserve">
+        <value>فشل تحديث مجموعات المستخدمين</value>
+    </data>
+    <data name="UserGroupsNotFound" xml:space="preserve">
+        <value>لم يتم العثور على مجموعات المستخدمين</value>
+    </data>
+    <data name="FailedToCreateUserNotification" xml:space="preserve">
+        <value>فشل في إنشاء إشعار المستخدم</value>
+    </data>
+    <data name="UserNotificationNotFound" xml:space="preserve">
+        <value>لم يتم العثور على إشعار المستخدم</value>
+    </data>
+    <data name="FailedToCreateNotificationTemplate" xml:space="preserve">
+        <value>فشل في إنشاء قالب الإشعار</value>
+    </data>
+    <data name="NotificationTemplateNotFound" xml:space="preserve">
+        <value>لم يتم العثور على قالب الإشعار</value>
+    </data>
+    <data name="VehicleNotAvailable" xml:space="preserve">
+        <value>السيارة غير متوفرة</value>
+    </data>
+    <data name="VehicleNotForRent" xml:space="preserve">
+        <value>السيارة غير مخصصة للإيجار</value>
+    </data>
+    <data name="FailedToCreateCarRentalOrder" xml:space="preserve">
+        <value>فشل في إنشاء طلب تأجير سيارة</value>
+    </data>
+    <data name="CarRentalOrderNotFound" xml:space="preserve">
+        <value>لم يتم العثور على طلب تأجير السيارة</value>
+    </data>
+    <data name="FailedToUpdateCarRentalOrder" xml:space="preserve">
+        <value>فشل في تحديث طلب تأجير السيارة</value>
+    </data>
+    <data name="CarRentalOrderNotPending" xml:space="preserve">
+        <value>طلب تأجير سيارة غير معلق</value>
+    </data>
+    <data name="FailedToCreateRentCar" xml:space="preserve">
+        <value>فشل في إنشاء سيارة للإيجار</value>
+    </data>
+    <data name="RentCarNotFound" xml:space="preserve">
+        <value>لم يتم العثور على سيارة للإيجار</value>
+    </data>
+    <data name="FailedToUpdateRentCar" xml:space="preserve">
+        <value>فشل في تحديث سيارة الإيجار</value>
+    </data>
+    <data name="PickupTimeInThePast" xml:space="preserve">
+        <value>وقت الاستلام في الماضي</value>
+    </data>
+    <data name="UserNotAllowed" xml:space="preserve">
+        <value>المستخدم ممنوع من تسجيل الدخول</value>
+    </data>
+    <data name="DriverNotAllowed" xml:space="preserve">
+        <value>السائق خارج الخدمه</value>
+    </data>
+    <data name="PaymentStatus_UnPaid" xml:space="preserve">
+        <value>غير مدفوعة</value>
+    </data>
+    <data name="PaymentStatus_Paid" xml:space="preserve">
+        <value>مدفوعه</value>
+    </data>
+    <data name="RideStatus_ArrivedAtDetour" xml:space="preserve">
+        <value>وصل الى النقطة الثانية</value>
+    </data>
+    <data name="RideStatus_ArrivedAtPickup" xml:space="preserve">
+        <value>وصل إلى نقطة الاستلام</value>
+    </data>
+    <data name="RideNotArrivedAtPickup" xml:space="preserve">
+        <value>لم تصل الرحلة إلى مكان الاستلام</value>
+    </data>
+    <data name="TransactionsServicesType_VipLoungeService" xml:space="preserve">
+        <value>خدمة الصالة</value>
+    </data>
+    <data name="TransactionsServicesType_VipVisaService" xml:space="preserve">
+        <value>خدمة الفيزا </value>
+    </data>
+    <data name="TransactionsServicesType_VipPackageService" xml:space="preserve">
+        <value>خدمة الحقائب المفقودة</value>
+    </data>
+
+    <data name="AirportServicesStatus_Pending" xml:space="preserve">
+    <value>قيد الانتظار</value>
+</data>
+    <data name="AirportServicesStatus_InProgress" xml:space="preserve">
+    <value>قيد التنفيذ</value>
+</data>
+    <data name="AirportServicesStatus_Completed" xml:space="preserve">
+    <value>مكتمل</value>
+</data>
+    <data name="AirportServicesStatus_Canceled" xml:space="preserve">
+    <value>ملغى</value>
+</data>
+    <data name="AirportServicesStatus_Rejected" xml:space="preserve">
+    <value>مرفوض</value>
+</data>
+
+    <data name="AirportServicesTypes_VipVisa" xml:space="preserve">
+    <value>فيزا كبار الشخصيات</value>
+</data>
+    <data name="AirportServicesTypes_Luggage" xml:space="preserve">
+    <value>الأمتعة</value>
+</data>
+    <data name="AirportServicesTypes_Lounge" xml:space="preserve">
+    <value>الصالة</value>
+</data>
+
+</root>

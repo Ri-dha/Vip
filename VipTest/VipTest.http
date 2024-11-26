@@ -1,0 +1,8 @@
+ @VipTest_HostAddress = http://localhost:5250
+
+GET {{VipTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+ 
+ {{VipTest_HostAddress}}/users/

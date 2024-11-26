@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ride Tracking Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.0/signalr.min.js"></script>
+</head>
+<body>
+<h1>Ride Tracking Dashboard</h1>
+<input type="text" id="rideIdInput" placeholder="Enter Ride ID (GUID)" />
+<button id="startTrackingBtn">Start Tracking</button>
+
+<h2>Location Updates:</h2>
+<div id="updates"></div>
+
+<script>
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("http://localhost:5250/trackinghub") // Update with your SignalR hub URL
+        .build();
+
+    connection.on("RideTrackingStarted", (rideId) => {
+        const updatesDiv = document.getElementById("updates");
+        updatesDiv.innerHTML += `<div>Tracking started for ride ${rideId}</div>`;
+    });
+
+    connection.on("RideTrackingStopped", (rideId) => {
+        const updatesDiv = document.getElementById("updates");
+        updatesDiv.innerHTML += `<div>Tracking stopped for ride ${rideId}</div>`;
+    });
+
+    connection.on("ReceiveUpdatedLocation", (rideId, latitude, longitude) => {
+        const updatesDiv = document.getElementById("updates");
+        updatesDiv.innerHTML += `<div>Ride ${rideId}: Latitude ${latitude}, Longitude ${longitude}</div>`;
+    });
+
+    connection.onclose(() => {
+        console.log("Connection closed.");
+        document.getElementById("updates").innerHTML += "<div style='color: red;'>Connection closed. Attempting to reconnect...</div>";
+        startConnection(); // Attempt to reconnect
+    });
+
+    async function startConnection() {
+        try {
+            await connection.start();
+            console.log("Connected to SignalR Hub.");
+            document.getElementById("updates").innerHTML += "<div style='color: green;'>Connected to SignalR Hub successfully.</div>";
+        } catch (err) {
+            console.error("Connection failed: ", err);
+            document.getElementById("updates").innerHTML += `<div style='color: red;'>Connection failed: ${err.message}. Retrying...</div>`;
+            setTimeout(startConnection, 5000); // Retry on failure
+        }
+    }
+
+    document.getElementById("startTrackingBtn").addEventListener("click", async () => {
+        const rideId = document.getElementById("rideIdInput").value;
+        await connection.invoke("StartTrackingRide", rideId);
+    });
+
+    startConnection();
+</script>
+</body>
+</html>
